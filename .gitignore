@@ -1,0 +1,33 @@
+# Ignore Python compiled and cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore system files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Ignore log and temporary files
+*.log
+*.tmp
+*.cache
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+
+# Ignore image cache or temporary images
+*.bak
+*.md~
+
+# Ignore unnecessary images in gallery
+p*.png
+
+# Ignore dependencies (if using pip freeze)
+requirements.txt
